@@ -1,6 +1,5 @@
 // sum(3)(4)(5)
 
-<<<<<<< HEAD
 //calculate(3)(7)(fn)
 
 const sum = (a, b, c = 0) => {
@@ -20,6 +19,3 @@ const calculate = (valueOne) => {
 
 const resultCalc = calculate(5)(2)(sum)
 console.log(resultCalc)
-=======
-// calculate(3)(7)(fn)
->>>>>>> 0d3a769e5c7303462cf125acd831cc9ecfb6d734
