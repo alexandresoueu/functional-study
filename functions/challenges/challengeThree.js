@@ -10,7 +10,7 @@ const readFile = way => {
   })
 }
 
-const way = path.join(__dirname, 'data.txt')
+const way = path.join(__dirname, '../data.txt')
 readFile(way)
   .then(content => content.split('\n'))
   .then(lines => lines.join(','))
